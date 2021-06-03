@@ -1,0 +1,58 @@
+.workBox {
+    background-color:#80808E ;
+    color: black;
+}
+
+.workInProgress{
+    background-color:#90909D ;
+    color: black;
+}
+
+.workFinished {
+    background-color:#3F3D43;
+    color: white;
+}
+
+.titleText{
+    color: white;
+}
+
+.categoryText{
+    color: black;
+}
+
+
+.form-control {
+    background-color: #90909D;
+    color:white;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #757585;
+    color: white;
+}
+
+
+.sign_in_btn {
+    border: solid white 1px;
+    background-color: #1F1E21;
+    color: white;
+}
+
+.sign_in_btn:hover {background-color: #38363C}
+
+.sign_in_btn:active {
+    background-color: #3F3D43;
+
+    transform: translateY(2px);
+}
+
+.drp_btn {
+
+    border: solid black 0px;
+    background-color:  rgba(0, 0, 0, 0);
+    color: black;
+}

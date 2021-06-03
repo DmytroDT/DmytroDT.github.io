@@ -1,0 +1,96 @@
+.payBox {
+    background-color: #6F65B1;
+    color: black;
+}
+
+.countBox {
+    background-color: white;
+    color: black;
+}
+
+.application {
+    background-color:#80808E ;
+    color: black;
+}
+
+.skillBox{
+    background-color: #BEBECD;
+    color: black;
+}
+
+
+.form-control {
+    background-color: #80808E;
+    color: #343232;
+    border: solid 0px;
+    border-radius: 0px;
+}
+
+.form-control:focus{
+
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #90909D;
+    color: #2D2D33;
+}
+
+.search_btn {
+    border: solid white 0px;
+    background-color: #343232;
+    color: white;
+}
+
+.search_btn:hover {
+    background-color: #38363C
+}
+
+.search_btn:active {
+    background-color: #3F3D43;
+    transform: translateY(2px);
+}
+
+.accordion-item {
+    background-color: #80808E;
+}
+
+.acco_btn {
+    border: solid white 0px;
+    background-color: #343232;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+.acco_btn:hover {
+    border: solid white 0px;
+    background-color: #38363C
+}
+
+.acco_btn:active {
+    border: solid white 0px;
+    background-color: #3F3D43;
+    transform: translateY(2px);
+}
+
+.category{
+    background-color: #3F3D43;
+    color: white;
+}
+
+.category:focus{
+
+    background-color: #1F1E21;
+    color: white;
+}
+
+.form-check-input {
+    background-color: #1F1E21;
+    color: #BEBECD;
+}
+
+.form-check-input:active {
+    background-color: #BEBECD;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #2D2D33;
+}

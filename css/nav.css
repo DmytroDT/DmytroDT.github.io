@@ -1,0 +1,30 @@
+body {
+background-color: #1F1E21;
+}
+
+.navbar.navbar-expand-lg {
+    background-color:  #2D2D33;
+}
+
+.navbar.navbar-expand-lg a {
+    color: white;
+}
+
+.navbar-brand {
+    border-bottom:1px solid #676774;
+}
+
+li.nav-item{
+    border-bottom:2px solid rgba(255,255,255,.0);
+}
+
+li.nav-item:hover {
+    border-bottom:2px solid rgba(112,0,201,1);
+
+}
+
+.bodyBox {
+
+background-color: #2D2D33;
+color: white;
+}

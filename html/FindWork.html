@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <link rel="stylesheet"  type = "text/css" href="../css/nav.css">
+  <link rel="stylesheet"  type = "text/css" href="../css/findWork.css">
+
+  <title>Find work</title>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg ">
+
+  <div class="container-fluid ">
+
+    <div class="col-4">
+
+      <a class="navbar-brand" href="../html/aboutUs.html">Pratsya</a>
+
+    </div>
+
+    <div class="col-1">
+
+      <button class="navbar-toggler btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </button>
+
+    </div>
+
+    <div class=" collapse navbar-collapse" id="navbarNav">
+      <div class="col d-flex justify-content-between">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../html/postWork.html">post work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../html/FindWork.html">find work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/MyJobs.html">my jobs</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../html/login.html">login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/register.html">register</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+
+  </div>
+</nav>
+
+<div class="container-fluid p-2 d-flex flex-column  justify-content-center ">
+  <!--search bar ></!-->
+  <div class="row m-2 d-flex justify-content-center">
+
+      <div class="col-xl-6">
+
+         <div class="input-group " >
+           <input type="text" class="form-control " placeholder="search jobs" aria-label="search" >
+
+           <button class=" search_btn " type="submit"  id="basic-addon1">
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+             </svg>
+           </button>
+         </div>
+
+  </div>
+
+  </div>
+
+  <!--everything else></!-->
+  <div class="row m-2">
+
+    <!--accordeon></!-->
+    <div class="mt-2 col-xl-3">
+
+        <div class="accordion-item rounded-0">
+        <h2 class="accordion-header  rounded-0" id="a">
+        Filter by:
+        </h2>
+      </div>
+
+        <div class="accordion-item  rounded-0">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="acco_btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Category
+            </button>
+          </h2>
+
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <h5>Select category:</h5>
+
+              <div class="form-check">
+                <input class="form-check-input rounded-0" type="checkbox" value="" id="webDCheck">
+                <label class="form-check-label" for="webDCheck">
+                 Web development
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input rounded-0" type="checkbox" value="" id="EmbDCheck">
+                <label class="form-check-label" for="EmbDCheck">
+                  Embedded development
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input rounded-0" type="checkbox" value="" id="SoftDCheck">
+                <label class="form-check-label" for="SoftDCheck">
+                  Software development
+                </label>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accordion-item  rounded-0">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="acco_btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Payment
+            </button>
+
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              <div class="input-group mb-3">
+
+                <div class="row m-1">
+                  <h5>Pick payment range:</h5>
+                </div>
+
+                <div class="row  m-1">
+
+                  <div class="col">
+                    <input type="text" class="form-control category" placeholder="upper " aria-label="upB">
+
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control category" placeholder="lower " aria-label="lwB">
+                  </div>
+
+                </div>
+
+                <div class="row  m-1">
+
+                  <div class="col">
+                    <label for="customRange3" class="form-label">lower bound</label>
+                    <input type="range" class="" min="0" max="100000" id="customRange3">
+                  </div>
+
+                <div class="col">
+                  <label for="customRange2" class="form-label">upper bound</label>
+                  <input type="range" class="" min="0" max="100000" id="customRange2">
+                </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+    <!--content></!-->
+    <div class="col-xl-6">
+
+      <!--content container else></!-->
+      <div class="container-lg  application mt-2 p-2">
+        <!--aplication container ></!-->
+        <div class=" container application">
+          <div class="row">
+            <p class="h5 text-nowrap">Web developer in Angular</p>
+          </div>
+          <div class="row">
+            <p>We’re looking for a young, aspiring developer to help us with a web  site using angular.js .
+              The job consists of you sitting in a chair and pressing 1 button on command from your superior.</p>
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-8">
+              <div class="d-flex flex-row justify-content-start">
+                <div class="skillBox m-2 p-2 text-nowrap">angular</div>
+                <div class="skillBox m-2 p-2 text-nowrap">Full stack</div>
+                <div class="skillBox m-2 p-2 text-nowrap">HTML</div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="d-flex flex-row justify-content-end">
+                <div class="countBox m-2 p-2 text-nowrap">2</div>
+                <div class="payBox m-2 p-2 text-nowrap">5$</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!--content container else></!-->
+      <div class="container-lg  application mt-2 p-2">
+        <!--aplication container ></!-->
+        <div class=" container application">
+          <div class="row">
+            <p class="h5 text-nowrap">Web developer in Angular</p>
+          </div>
+          <div class="row">
+            <p>We’re looking for a young, aspiring developer to help us with a web  site using angular.js .
+              The job consists of you sitting in a chair and pressing 1 button on command from your superior.</p>
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-8">
+              <div class="d-flex flex-row justify-content-start">
+                <div class="skillBox m-2 p-2 text-nowrap">angular</div>
+                <div class="skillBox m-2 p-2 text-nowrap">Full stack</div>
+                <div class="skillBox m-2 p-2 text-nowrap">HTML</div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="d-flex flex-row justify-content-end">
+                <div class="countBox m-2 p-2 text-nowrap">2</div>
+                <div class="payBox m-2 p-2 text-nowrap">5$</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!--content container else></!-->
+      <div class="container-lg  application mt-2 p-2">
+        <!--aplication container ></!-->
+        <div class=" container application">
+          <div class="row">
+            <p class="h5 text-nowrap">Web developer in Angular</p>
+          </div>
+          <div class="row">
+            <p>We’re looking for a young, aspiring developer to help us with a web  site using angular.js .
+              The job consists of you sitting in a chair and pressing 1 button on command from your superior.</p>
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-8">
+              <div class="d-flex flex-row justify-content-start">
+                <div class="skillBox m-2 p-2 text-nowrap">angular</div>
+                <div class="skillBox m-2 p-2 text-nowrap">Full stack</div>
+                <div class="skillBox m-2 p-2 text-nowrap">HTML</div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="d-flex flex-row justify-content-end">
+                <div class="countBox m-2 p-2 text-nowrap">2</div>
+                <div class="payBox m-2 p-2 text-nowrap">5$</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!--content container else></!-->
+      <div class="container-lg  application mt-2 p-2">
+        <!--aplication container ></!-->
+        <div class=" container application">
+          <div class="row">
+            <p class="h5 text-nowrap">Web developer in Angular</p>
+          </div>
+          <div class="row">
+            <p>We’re looking for a young, aspiring developer to help us with a web  site using angular.js .
+              The job consists of you sitting in a chair and pressing 1 button on command from your superior.</p>
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-8">
+              <div class="d-flex flex-row justify-content-start">
+                <div class="skillBox m-2 p-2 text-nowrap">angular</div>
+                <div class="skillBox m-2 p-2 text-nowrap">Full stack</div>
+                <div class="skillBox m-2 p-2 text-nowrap">HTML</div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="d-flex flex-row justify-content-end">
+                <div class="countBox m-2 p-2 text-nowrap">2</div>
+                <div class="payBox m-2 p-2 text-nowrap">5$</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
